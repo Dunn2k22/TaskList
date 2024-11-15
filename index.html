@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="lista-de-tarefas.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="cb-nv1">
+            <ul class="cb-nv1-ul1">
+                <li><a href="#" class="link-icon"> <img src="lista-de-tarefas.png" width="50" height="55" alt="logo" style="position: absolute; left: 6px; top: 2px; transform: rotate(-25deg);"><h1 style="position: absolute; left: 55px; top: 5px;">TaskList</h1></a></li>
+            </ul>
+        </nav>
+
+        <nav class="cb-nv2">
+            <ul class="cb-nv2-ul1">
+                <li><a href="#" class="link-icon gear-of-menu"> <i class="bi-gear-fill"  style="color: #ccc;"></i>  </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="anucio-pub-long"></div>
+    <section container="sec-main">
+        <section class="sc" container="sec-1">
+            <section class="div sec-1">
+                <nav>
+                    <i class="bi-pen-fill" style="color: #534949;"></i>
+                    <p>Digite suas tarefas</p>
+                </nav>
+                <nav>
+                    <textarea name="Digitar" id="Digitar" placeholder="Escreva suas tarefas"></textarea>
+                </nav>
+            </section>
+            <section class="div sec-2">
+                <div class="anucio-pub-short"></div>
+                <div  class="anucio-pub-short"></div>
+            </section>
+        </section>
+        <section class="sc" container="sec-2">
+            <nav>
+                <i class="bi-file-text-fill" style="color: #89a8a8;"></i>
+                <p>Sua lista de tarefas</p>
+            </nav>
+            <nav>
+                <ul class="your-list">
+
+                </ul>
+            </nav>
+        </section>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
